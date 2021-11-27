@@ -1,0 +1,15 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 1em;
+    margin: auto;
+
+    min-height: 20em;
+    min-width: 200px;
+    
+}

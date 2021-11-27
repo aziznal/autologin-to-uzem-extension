@@ -1,0 +1,26 @@
+{
+    "name": "Auto Login",
+    "description": "This extension automatically logs me in to UZEM",
+    "version": "0.01",
+    "manifest_version": 3,
+
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "scripting"
+    ],
+
+    "host_permissions": [
+        "https://karatay.almscloud.com/*"
+    ],
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "action": {
+        "default_popup": "popup.html"
+    }
+
+}
